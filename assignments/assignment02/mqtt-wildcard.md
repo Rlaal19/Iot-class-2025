@@ -5,7 +5,7 @@
 
 > Objective: Only receive messages that belong to your student ID.
 
-Answer: test/qos/{STUDENT_ID}/#
+Answer: test/qos/6510301011/#
 
 
 ## Part 2: Subscribe to all students’ temperature data
