@@ -1,19 +1,20 @@
 # Online Prediction
 
 <!-- Online Prection ทำงานอย่างไร  -->
+รับ data มาและนำ data train model เพื่อให้สามารถทำนาย fan speed ได้อย่างแม่นยำเมื่อมีข้อมูลเข้ามาใหม่จะสามารถทำนาย fan speed ได้
 
 ## ปิดการใช้งานของ Batch ML ดังนี้
 
-1. a
-2. b
-3. c
+1. kafka-to-Jsonl
+2. Train-from-data
+3. Predict-then-Influxdb
 
 
 ## เริ่มใช้งาน Online ML ดังนี้
 
-1. ..
-2. ..
-3. ..
+1. docker compose down batch ml service
+2. edit .env file
+3. docker compose up online ml service
 
 ## ผลที่ได้จากการใช้ ML มีดังนี้
 
